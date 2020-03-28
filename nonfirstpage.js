@@ -47,5 +47,5 @@ const getNonfirstPage = module.exports = (nextpageLink, options, callback) => {
         });
     }).catch((err) => console.log(err))
     //   });
-    request.on('error', callback);
+    // request.on('error', callback);
 };
