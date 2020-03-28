@@ -47,5 +47,5 @@ module.exports = (playlistID, options, callback) => {
         callback(null, response);
     }).catch((err) => console.log(err));
     //   });
-    request.on('error', callback);
+    // request.on('error', callback);
 };
