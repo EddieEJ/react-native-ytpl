@@ -1,0 +1,35 @@
+{
+    "name": "react-native-ytpl",
+    "version": "1.0.0",
+    "description": "YouTube Playlist",
+    "main": "index.js",
+    "dependencies": {
+      "html-entities": "^1.2.1",
+      "url": "~0.10.1"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/EddieEJ/react-native-ytpl.git"
+    },
+  
+    "keywords": [
+      "react",
+      "native",
+      "youtube",
+      "playlist",
+      "audio",
+      "video",
+      "stream",
+      "extractor",
+      "ytpl"
+    ],
+    "author": "EddieEJ",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/EddieEJ/react-native-ytpl/issues"
+    },
+    "homepage": "https://github.com/EddieEJ/react-native-ytpl#readme"
+  }
