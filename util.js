@@ -121,8 +121,6 @@ exports.userToChannelUploadList = (user, callback) => {
         if (!channelMatch) return;
         finished = true;
         if (finished) return;
-        const channelMatch = resp.match(CHANNEL_REGEXP);
-        if (channelMatch) return
     }).catch((err) => console.log(err))
 
     // const req = HTTPS.get(`https://www.youtube.com/user/${user}`, resp => {
